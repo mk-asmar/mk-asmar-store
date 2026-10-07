@@ -1,0 +1,9 @@
+{
+  "name":"mk-asmar-store",
+  "version":"2.0.0",
+  "private":true,
+  "description":"MK Asmar PUBG marketplace with owner dashboard and PostgreSQL",
+  "main":"server.js",
+  "scripts":{"start":"node server.js"},
+  "dependencies":{"express":"^4.21.2","express-session":"^1.18.1","connect-pg-simple":"^10.0.0","pg":"^8.16.3"}
+}
